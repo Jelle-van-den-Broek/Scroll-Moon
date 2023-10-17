@@ -77,8 +77,8 @@ html {
   position: fixed;
   top: 50%;
   left: -100px; /* Initial position outside the left edge of the screen */
-  width: 500px;
-  height: 100px;
+  width: 100%;
+  height: auto;
   background: url(Img/rocket.png);
   background-repeat: none;
   background-size: cover;
