@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  height: 371vh;
+}
+
+body::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.blackscreen{
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.reset{
+  background: #980002;
+  min-width: 120px;
+  padding: 10px 0;
+  
+  color: #FFF;
+  font-size: 16px;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background .5s ease;
+}
+
+.reset:hover {
+    background: #bb0b0d;
+  }
+
+.launch-failed{
+  color: RED;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: url(bg2.jfif);
+  background-repeat: none;
+  background-size: cover;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#moon {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url(test.webp);
+  background-repeat: none;
+  background-size: cover;
+}
+
+.rocket-animation {
+  position: fixed;
+  top: 50%;
+  left: -100px; /* Initial position outside the left edge of the screen */
+  width: 500px;
+  height: 100px;
+  background: url(plane.png);
+  background-repeat: none;
+  background-size: cover;
+}
+
+.text-scroll {
+  position: fixed;
+  top: 10%;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 120%;
+  color: white;
+  text-align: center;
+}
+
+@keyframes rotating {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
