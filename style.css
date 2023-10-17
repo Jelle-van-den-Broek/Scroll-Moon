@@ -52,7 +52,7 @@ html {
   position: fixed;
   width: 100%;
   height: 100vh;
-  background: url(img/bg2.jfif);
+  background: url(Img/bg2.jfif);
   background-repeat: none;
   background-size: cover;
   overflow: auto;
@@ -68,7 +68,7 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: url(img/test.webp);
+  background: url(Img/Moon.png);
   background-repeat: none;
   background-size: cover;
 }
@@ -79,7 +79,7 @@ html {
   left: -100px; /* Initial position outside the left edge of the screen */
   width: 500px;
   height: 100px;
-  background: url(img/plane.png);
+  background: url(Img/rocket.png);
   background-repeat: none;
   background-size: cover;
 }
