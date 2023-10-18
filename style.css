@@ -71,6 +71,7 @@ html {
   background: url(Img/Moon.png);
   background-repeat: no-repeat;
   background-size: cover;
+  animation: rotating 5s linear infinite;
 }
 
 .rocket-animation {
